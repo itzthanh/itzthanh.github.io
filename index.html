@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/thanh.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="resources/lightbox2-master/src/css/lightbox.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8"> 
+		<title>Thanh Do</title>
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="125">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+		    <div class="navbar-header">
+		    	<a class="navbar-brand" href="#home"><img src="images/icons/logo.png"/></a>
+		    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburgerMenu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            	</button>
+		    </div>
+		    <div class="collapse navbar-collapse" id="hamburgerMenu">
+	    	<ul class="nav navbar-nav">
+		      	<li class="active"><a href="#home"><span class="glyphicon glyphicon-home"> HOME</a></span></li>
+		      	<li><a href="#about"><span class="glyphicon glyphicon-user"> ABOUT</a></span></li>
+		      	<li><a href="#projects"><span class="glyphicon glyphicon-briefcase"> PROJECTS</a></span></li>
+		      	<li><a href="#contact"><span class="glyphicon glyphicon-envelope"> CONTACT</a></span></li>
+	    	</ul>
+	    	</div>
+		</div>
+	</nav>
+	<div class="jumbotron" id="home">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
+					<img src="images/thanh/thanh.jpg" class="img-thumbnail thanh_images img-responsive center-block"> 
+					<img src="images/thanh/thanh2.jpg" class="img-thumbnail thanh_images img-responsive center-block"> 
+					<img src="images/thanh/thanh3.jpg" class="img-thumbnail thanh_images img-responsive center-block"> 
+					<img src="images/thanh/thanh4.jpg" class="img-thumbnail thanh_images img-responsive center-block"> 
+					<img src="images/thanh/thanh5.jpg" class="img-thumbnail thanh_images img-responsive center-block"> 
+				</div>
+				<div class="col-md-5" id="name">
+					<h1 class="text-uppercase">Thanh Do</h1>
+					<h2>Front-End Developer</h2>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="container-fluid section" id="about">
+			<div class="row">
+				<div class="col-md-6">
+			  		<h1>About</h1>
+			  		<p>I'm Thanh Do, a 2017 graduate from the University of California, Irvine with a B.S. in Software Engineering. I'm an aspiring front-end developer, and first leapt into the vast world of web development 1 year ago. Prior to that I was taking the classes and doing the work, but nothing sparked my interest until I decided to have a go at creating a website from scratch for my Red Cross Organization on campus. Starting off with learning HTML and CSS, I'd like to think I've gotten pretty far in the previous year. I'm now living in San Jose, CA and am looking to further develop myself as a front-end developer through invaluable work experience.
+			  		<br><br>
+			  		Besides programming and working on websites, I'm a person of varied interests. I love watching movies and shows and investing myself in the stories they have to offer. You will always see me juggling several shows at once. I'm a soccer and basketball fanatic and am die-hard fans of Arsenal and the Lakers. If you're ever in need of food recommendations, being the foodie I am, I will always suggest something or we can go grab a bite. During my free time when I don't want to watch something, I read and follow DC Comics, draw, or play online games.<br><br>
+	  			</div>
+				<div class="col-md-6" id="graph_container" style="position:relative;">
+					<canvas id="myChart" width="300" height="300"></canvas>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="container-fluid section" id="projects">
+	  		<h1>Projects</h1>
+	  		<p style="margin-bottom:30px">Below are some screenshots along with short descriptions of projects I've completed in the last year. As a side note: some screenshots have been edited/resized for uniformity. I am more than open to discussing what I've done in more detail if desired. </p>
+	  		<div class="row projects_gallery_row">
+	  			<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+		  			<div id="project1" class="carousel slide" data-ride="carousel">
+					  	<!-- Indicators -->
+					  	<ol class="carousel-indicators">
+					    	<li data-target="#project1" data-slide-to="0" class="active"></li>
+					    	<li data-target="#project1" data-slide-to="1"></li>
+					    	<li data-target="#project1" data-slide-to="2"></li>
+					    	<li data-target="#project1" data-slide-to="3"></li>
+					  	</ol>
+
+					  	<!-- Wrapper for slides -->
+					  	<div class="carousel-inner">					
+					    	<div class="item active">
+					    		<a href="images/screenshots/project1_1.png" data-lightbox="project1">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project1_1.png" alt="grafos">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+
+					    	<div class="item">
+					    		<a href="images/screenshots/project1_2.png" data-lightbox="project1">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project1_2.png" alt="grafos">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+
+					    	<div class="item">
+					    		<a href="images/screenshots/project1_3.png" data-lightbox="project1">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project1_3.png" alt="grafos">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+
+					    	<div class="item">
+					    		<a href="images/screenshots/project1_4.png" data-lightbox="project1">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project1_4.png" alt="grafos">
+					      		</a>
+					      		<div class="carousel-caption">
+					        		<p>Project 1</p>
+					      		</div>
+					    	</div>
+					  	</div>
+
+					  	<!-- Left and right controls -->
+					  	<a class="left carousel-control" href="#project1" data-slide="prev">
+					    	<span class="glyphicon glyphicon-chevron-left"></span>
+					    	<span class="sr-only">Previous</span>
+					  	</a>
+					  	<a class="right carousel-control" href="#project1" data-slide="next">
+					    	<span class="glyphicon glyphicon-chevron-right"></span>
+					    	<span class="sr-only">Next</span>
+					  	</a>
+					</div>
+	  			</div>
+	  			<div class="col-lg-5 col-md-5 project-description">
+	  				<p class="center-block">After finding out that some behavioral therapists (BT) still work with paper and pencil and store their data in a binder, I wanted to help build a simple alternative that would make things more convenient while safely storing their data.<br><br>
+	  				Grafos is a prototype for a web service that takes in the name of the client the BT is working with, the current date, the goal being tracked, and description if applicable. The number of trials can vary from BT to BT so I chose ten trials for the time being. After tracking successes and failures in relation to the goal, the BT is able to export the result to a PDF.<br><br>
+	  				I am aiming to revamp the web application and launch it live with an account based system allowing more clients to be monitored while allowing all data to be saved through each client's account. The goal is to maximize efficiency for BTs working in the Applied Behavior Analysis field.<br><br> 
+	  				Tools: HTML/CSS, JavaScript, PHP</p>
+	  			</div>
+	  			<div class="col-lg-1 col-md-1"></div>
+	  		</div>
+	  		<div class="row projects_gallery_row">
+	  			<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+		  			<div id="project2" class="carousel slide" data-ride="carousel">
+					  	<!-- Indicators -->
+					  	<ol class="carousel-indicators">
+					    	<li data-target="#project2" data-slide-to="0" class="active"></li>
+					    	<li data-target="#project2" data-slide-to="1"></li>
+					    	<li data-target="#project2" data-slide-to="2"></li>
+					  	</ol>
+
+					  	<!-- Wrapper for slides -->
+					  	<div class="carousel-inner">
+					    	<div class="item active">
+					    		<a href="images/screenshots/project2_1.png" data-lightbox="project2">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project2_1.png" alt="rccatuci">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+
+					    	<div class="item">
+					    		<a href="images/screenshots/project2_2.png" data-lightbox="project2">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project2_2.png" alt="rccatuci">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+
+					    	<div class="item">
+					    		<a href="images/screenshots/project2_3.png" data-lightbox="project2">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project2_3.png" alt="rccatuci">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+					  	</div>
+
+					  	<!-- Left and right controls -->
+					  	<a class="left carousel-control" href="#project2" data-slide="prev">
+					    	<span class="glyphicon glyphicon-chevron-left"></span>
+					    	<span class="sr-only">Previous</span>
+					  	</a>
+					  	<a class="right carousel-control" href="#project2" data-slide="next">
+					    	<span class="glyphicon glyphicon-chevron-right"></span>
+					    	<span class="sr-only">Next</span>
+					  	</a>
+					</div>
+	  			</div>
+	  			<div class="col-lg-5 col-md-5 project-description">
+	  				<p class="center-block">Giving back is something I deeply believe in and is shown through my years of community service. Having already been in UC Irvine’s Red Cross organization, I decided to interview for the webmaster position with no prior knowledge of web development. One summer later, rccatuci.com is created, and is the product of my love for community service combined with my desire to start my journey into web development. Being my very first website, I was learning HTML, CSS, and JavaScript while creating the website from scratch. The website features an abundant amount of tabs and information, with embedded content such as tracking membership points from Google sheets. Announcements are also dynamic in that the current school week is displayed with the corresponding announcement box opening up, not requiring the week number to be tracked and changed manually weekly.<br><br>
+	  				Tools: HTML/CSS, JavaScript</p>
+	  			</div>
+	  			<div class="col-lg-1 col-md-1"></div>
+	  		</div>
+	  		<div class="row projects_gallery_row">
+	  			<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+		  			<div id="project3" class="carousel slide" data-ride="carousel">
+					  	<!-- Wrapper for slides -->
+					  	<div class="carousel-inner">
+					    	<div class="item active">
+					    		<a href="images/screenshots/project3.png" data-lightbox="project3">
+						      		<img class="img-responsive project_image center-block " src="images/screenshots/project3.png" alt="EZPCParts">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+					  	</div>
+					</div>
+	  			</div>
+	  			<div class="col-lg-5 col-md-5 project-description">
+	  				<p class="center-block">I love building computers and have built a couple so far. I was asked to build an e-commerce website for a course, and decided to base it around shopping for computer parts. The result of 7-8 weeks of work is a website that allows users to view a select number of products and add to cart. Users can add any quantity they want and then proceed to checkout when they are ready. After filling out the entire form and checking out, a confirmation order page is given and the user will subsequently receive an email for their respective order. If the user chooses not to place an order and returns back to the home page, the most recently viewed items will be displayed there as a reminder. This was all done using PHP for the backend and then later replaced by JSP and Java Servlets for another assignment.<br><br>
+	  				Tools: (ver. 1) HTML/CSS, JavaScript, PHP<br>
+	  				(ver. 2) HTML/CSS, JSP, Java Servlets<br><br>
+	  				*Missing screenshots due to database hosted at UCI being terminated.</p>
+	  			</div>
+	  			<div class="col-lg-1 col-md-1"></div>
+	  		</div>
+	  		<div class="row projects_gallery_row">
+	  			<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+		  			<div id="project4" class="carousel slide" data-ride="carousel">
+					  	<!-- Indicators -->
+					  	<ol class="carousel-indicators">
+					    	<li data-target="#project4" data-slide-to="0" class="active"></li>
+					    	<li data-target="#project4" data-slide-to="1"></li>
+					    	<li data-target="#project4" data-slide-to="2"></li>
+					    	<li data-target="#project4" data-slide-to="3"></li>
+					  	</ol>
+
+					  	<!-- Wrapper for slides -->
+					  	<div class="carousel-inner">
+					    	<div class="item active">
+					    		<a href="images/screenshots/project4_1.png" data-lightbox="project4">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project4_1.png" alt="Project 4">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+
+					    	<div class="item">
+					    		<a href="images/screenshots/project4_2.png" data-lightbox="project4">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project4_2.png" alt="Project 4">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+
+					    	<div class="item">
+					    		<a href="images/screenshots/project4_3.png" data-lightbox="project4">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project4_3.png" alt="Project 4">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+
+					    	<div class="item">
+					    		<a href="images/screenshots/project4_5.png" data-lightbox="project4">
+					      			<img class="img-responsive project_image center-block" src="images/screenshots/project4_5.png" alt="Project 4">
+					      		</a>
+					      		<div class="carousel-caption">
+					      		</div>
+					    	</div>
+					  	</div>
+
+					  	<!-- Left and right controls -->
+					  	<a class="left carousel-control" href="#project4" data-slide="prev">
+					    	<span class="glyphicon glyphicon-chevron-left"></span>
+					    	<span class="sr-only">Previous</span>
+					  	</a>
+					  	<a class="right carousel-control" href="#project4" data-slide="next">
+					    	<span class="glyphicon glyphicon-chevron-right"></span>
+					    	<span class="sr-only">Next</span>
+					  	</a>
+					</div>
+	  			</div>
+	  			<div class="col-lg-5 col-md-5 project-description">
+	  				<p class="center-block">The company I was working with as a project and not employment requested a prototype of a revolutionary job search website. Due to the NDA I signed, I cannot reveal the idea behind the website, and such, any features related to the idea are not included in the screenshots. I was tasked with building a simple job search engine where employers can make a company profile page, post job listings, view candidates that have applied, and reject or accept candidates. Meanwhile, employees are able to create their own profile page, upload their resume, and manage their saved or applied jobs. <br><br>
+	  				Tools: HTML/CSS, JavaScript, PHP, SQL</p>
+	  			</div>
+	  			<div class="col-lg-1 col-md-1"></div>
+	  		</div>
+		</div>
+	</div>
+	<footer class="container-fluid footer" id="contact">
+		<div class="row social-media">
+			<div class="col-xs-1 col-md-4"></div>
+  			<div class="col-xs-3 col-md-1 social-media-icon">
+  				<!-- <a href="mailto:thanhhd@uci.edu" class="fa fa-google"></a><span>thanhhd@uci.edu</span> -->
+  				<a href="mailto:thanhhd@uci.edu" target="_blank"><img class="icon" src="images/icons/email.png"></a>
+  			</div>
+  			<div class="col-xs-3 col-md-1 social-media-icon">
+  				<a href="https://www.facebook.com/ThanhDough24" target="_blank"><img class="icon" src="images/icons/facebook.svg"></a>
+  			</div>
+  			<div class="col-xs-3 col-md-1 social-media-icon">
+  				<a href="https://www.instagram.com/thanhd24/" target="_blank"><img class="icon" src="images/icons/instagram.svg"></a>
+  			</div>
+			<div class="col-xs-1"></div>
+	  	</div>
+	  	<div class="row contact-info">
+	  		<br>
+	  		<div class="col-lg-2 col-lg-offset-4 col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2">
+	  			<p class="center-text" style="letter-spacing:5px;">thanhhd@uci.edu</p>	  		
+	  		</div>
+	  		<div class="col-lg-2 col-md-3 col-sm-4">
+	  			<p class="center-text" style="letter-spacing:5px;">(408)644-8937</p>
+	  		</div>
+	  	</div>
+	  	<br>
+	  	<p class="center-text" style="letter-spacing:5px;">&#8640;THANH DO&#8636;</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="resources/lightbox2-master/src/js/lightbox.js"></script>
+	<script src="js/thanh.js"></script>
+	</body>
+</html>
