@@ -14,9 +14,6 @@ $(document).ready(function () {
 	//scroll to page rather than "jump" to it when user clicks on a tab
   	$(".navbar a").on('click', function() {
     	if (this.hash) {
-    		// var active = $(this).parent()[0];
-    		// $(".nav").find(".active").removeClass("active");
-    		// $(active).toggleClass("active");
 	      	event.preventDefault();
 	      	var location = this.hash;
 	      	if (location == "#contact"){
