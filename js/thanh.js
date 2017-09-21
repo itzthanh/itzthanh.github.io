@@ -9,21 +9,21 @@ $(document).ready(function () {
 	$(window).on('activate.bs.scrollspy', function (e) {	
   		history.replaceState({}, "", $("a[href^='#']", e.target).attr("href"));
   		var currentSection = e.target;
-}	);
+	});
 
 	//scroll to page rather than "jump" to it when user clicks on a tab
   	$(".navbar a").on('click', function() {
-    	if (this.hash) {
-	      	event.preventDefault();
-	      	var location = this.hash;
-	      	if (location == "#contact"){
-	      		history.replaceState({}, "", $("a[href^='#']", location).attr("href"));
-	      	}
-	      	$('html, body').animate({
-	        	scrollTop: $(location).offset().top-25
-	      	}, 500, function(){
-	      	}); 	
-    	}
+		if (this.hash) {
+			event.preventDefault();
+			var location = this.hash;
+			if (location == "#contact"){
+				history.replaceState({}, "", $("a[href^='#']", location).attr("href"));
+			}
+			$('html, body').animate({
+				scrollTop: $(location).offset().top-25
+			}, 500, function(){
+			}); 	
+		}
   	});
   	
   	//hides skills chart when user isn't viewing the about or home section
@@ -37,9 +37,9 @@ $(document).ready(function () {
   	});
 
   	lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true,
-    })
+      		'resizeDuration': 200,
+      		'wrapAround': true,
+    	})
 
   	//renders "skills" bargraph
   	generateGraph();
