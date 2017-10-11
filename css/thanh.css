@@ -7,7 +7,7 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f7f7f', endColorstr='#101010',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	color:white;
 	position: relative;
-    font-size: 1.6em !important;
+    	font-size: 1.6em !important;
 }
 
 .navbar-brand > img{
@@ -60,13 +60,13 @@ body{
 	transform:rotate(360deg);
 	opacity: 0;
 	-webkit-transition: opacity 1s ease-out, -webkit-transform 3s ease-out;
-    -moz-transition: opacity 1s ease-out, -moz-transform 3s ease-out;
-    -o-transition: opacity 1s, -o-transform 3s ease-out;
-    transition: opacity 1s ease-out, -webkit-transform 3s ease-out;
-    -webkit-transform: translate(-15px,0px);
-    -moz-transform: translate(-15px,0px);
-    -o-transform: translate(-15px,0px);
-    transform:translate(-15px,0px);       
+	-moz-transition: opacity 1s ease-out, -moz-transform 3s ease-out;
+	o-transition: opacity 1s, -o-transform 3s ease-out;
+	transition: opacity 1s ease-out, -webkit-transform 3s ease-out;
+	-webkit-transform: translate(-15px,0px);
+	-moz-transform: translate(-15px,0px);
+	-o-transform: translate(-15px,0px);
+	transform:translate(-15px,0px);       
 }
 
 .navbar-toggle .icon-bar:nth-of-type(3) {
@@ -133,21 +133,26 @@ body{
 	padding-right: 15px;
 }
 
+#resume{
+	color:red;
+	opacity:0.8;
+}
+
 #projects, #about{
 	padding-top: 20px;
 }
 
 .thanh_images{
 	-ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
-    margin-top: 50px;
-    width:auto;
-    max-height:350px;
-    transition: opacity .5s ease-in;
-    opacity: 0;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-    display: none;
+	-webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+	transform: rotate(3deg);
+	margin-top: 50px;
+	width:auto;
+	max-height:350px;
+	transition: opacity .5s ease-in;
+	opacity: 0;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+	display: none;
 }
 
 .center-text{
