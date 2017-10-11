@@ -133,9 +133,8 @@ body{
 	padding-right: 15px;
 }
 
-#resume{
-	color:red;
-	opacity:0.8;
+#resume:hover{
+	color:inherit;
 }
 
 #projects, #about{
